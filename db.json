@@ -1,0 +1,53 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "Clover",
+      "phonenumber": "011221872",
+      "email": "Clover@gmail.com",
+      "product": "Milk"
+    },
+    {
+      "name": "Eblocks",
+      "phonenumber": "0833212855",
+      "email": "hello@eblocks.co.za",
+      "product": "Land Of Dreams",
+      "id": 2
+    },
+    {
+      "name": "Mason Tiles",
+      "phonenumber": "0833329922",
+      "email": "MasonTiles@gmail.com",
+      "product": "Tiles",
+      "id": 3
+    },
+    {
+      "name": "Battery Ops",
+      "phonenumber": "0833329922",
+      "email": "Bops@ops.com",
+      "product": "Batteries",
+      "id": 4
+    },
+    {
+      "name": "Info Tech",
+      "phonenumber": "0833422222",
+      "email": "info@tech.com",
+      "product": "Computer parts",
+      "id": 5
+    },
+    {
+      "name": "Bob The Builder",
+      "phonenumber": "0111223344",
+      "email": "bobthe@builder.com",
+      "product": "Construction",
+      "id": 6
+    },
+    {
+      "name": "Country Eggs",
+      "phonenumber": "0123324577",
+      "email": "info@ceggs.co.za",
+      "product": "Eggs",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<form class="example-form" [formGroup]="companyform" (ngSubmit)="SaveCompany()">
+    <mat-card>
+    <mat-card-content>
+    
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Id</mat-label>
+      <input matInput placeholder="ID" formControlName="id" >
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" formControlName="name" >
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Phone Number</mat-label>
+        <input matInput placeholder="Phone Number" formControlName="phonenumber" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Email" formControlName="email" >
+      </mat-form-field>
+
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Product</mat-label>
+      <textarea matInput placeholder="Product" formControlName="product"></textarea>
+    </mat-form-field>
+</mat-card-content>
+    <mat-card-footer>
+    <div class="example-button-row" style="margin: 2px">
+        <button mat-raised-button color="primary">Save</button> | <a (click)="closepopup()" mat-raised-button color="accent">Close</a>
+    </div>
+</mat-card-footer>
+</mat-card>
+  </form>
